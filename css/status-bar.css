@@ -1,0 +1,42 @@
+main aside {
+    font-size: 1.1em;
+    font-weight: 800;
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    padding: 1.25em 3em;
+}
+
+main aside time {
+    font-size: 1.25em;
+    align-self: center;
+}
+
+main aside ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.cellular {
+    width: 1.5em;
+    height: 1.5em;
+    background: url(../resources/cellular.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px;
+}
+
+.wifi {
+    width: 1.5em;
+    height: 1.5em;
+    background: url(../resources/wifi.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px;
+}
+
+.battery {
+    width: 2em;
+    height: 2em;
+    background: url(../resources/battery.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px;
+}

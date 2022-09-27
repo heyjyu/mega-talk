@@ -1,0 +1,77 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6em;
+    padding: 2em 2em;
+    border-top: 1px solid #DDD;
+    background-color: #EFEFEF;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+nav .user-fill {
+    justify-self: center;
+    width: 2em;
+    height: 2em;
+    background: url(../resources/user-fill.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px; 
+}
+
+nav .user-blank {
+    justify-self: center;
+    width: 2em;
+    height: 2em;
+    background: url(../resources/user-blank.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px; 
+}
+
+nav .chat-fill {
+    justify-self: center;
+    width: 2em;
+    height: 2em;
+    background: url(../resources/chat-fill.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px; 
+}
+
+nav .chat-blank {
+    justify-self: center;
+    width: 2em;
+    height: 2em;
+    background: url(../resources/chat-blank.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px; 
+}
+
+nav .view-blank {
+    justify-self: center;
+    width: 2em;
+    height: 2em;
+    background: url(../resources/view-blank.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px;  
+}
+
+nav .shopping-blank {
+    justify-self: center;
+    width: 2em;
+    height: 2em;
+    background: url(../resources/shopping-blank.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px;   
+}
+
+nav .more-blank {
+    justify-self: center;
+    width: 2em;
+    height: 2em;
+    background: url(../resources/more-blank.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px;   
+}
