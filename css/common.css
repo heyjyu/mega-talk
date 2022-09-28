@@ -27,12 +27,11 @@
         font-size: 1.25em;
         color: #0F7562;
     }
-
-
 }
 
 a {
     text-decoration: none;
+    display: block;
     color: black;
 }
 
